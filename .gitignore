@@ -1,0 +1,7 @@
+
+/.md_guias/
+
+node_modules/
+dist/
+build/
+.env
