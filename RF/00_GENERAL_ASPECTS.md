@@ -27,14 +27,11 @@ Geogok/
 │   └── package.json          
 │
 ├── docker-compose.yml        # Orquestrador local (irá subir o PostGIS e a API)
-├── ARQUITETURA.md            # Este arquivo
 ├── README.md                 # Visão geral do projeto
 └── .gitignore                # Ignora pastas como node_modules, build, etc.
 ```
 
 ## Docker - Plano de Ação
-
-Como você já sabe o básico, vamos facilitar:
 
 1. Utilizaremos uma imagem oficial do PostgreSQL que já vem com o PostGIS instalado (ex: `postgis/postgis`).
 2. O `docker-compose.yml` raiz vai facilitar para que com um comando (`docker compose up -d`) você tenha o banco rodando, pronto para receber conexões das migrations do NestJS.
