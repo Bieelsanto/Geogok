@@ -16,18 +16,18 @@ Como jogador do aplicativo, quero ser de preferência auto-autenticado pelo disp
 
 Tabela listando de forma minuciosa as ações presentes que constróem a tela de acesso.
 
-| Campo / Elemento | Tipo | Obrigatoriedade | Descrição / Comportamento esperado |
-| :--- | :--- | :--- | :--- |
-| **Imagem de Fundo / Logo** | Imagem | Sim | Design estético central e minimalista apresentando a identidade que compõe o brand do app. |
-| **Componente de Auth: Play Games** | Automação | Opcional | Execução invisível. Caso ocorra em Androids logados, esta rotina é ativada por conta própria no _startup_ da tela. |
-| **Botão: Continuar com Google** | Botão | Sim | Aciona modal integrado do Google Account/OAuth na tela. |
-| **Campo: Endereço de E-mail** | Input | Sim | Onde o usuário informa o e-mail durante opções explícitas manuais. |
-| **Campo: Senha do E-mail** | Input | Sim | Onde descreve as senhas manuais. |
-| **Botão: Entrar com E-mail e Senha** | Botão | Sim | Realiza a validação contra as credenciais e procede ao sucesso do pareamento de contas. |
-| **Botão: Pular Login (Jogar agora)** | Botão / Link | Sim | Ação explícita de recusa ao login. Salva metadados localmente ativando a regra permanente _bypass_ de RF_001. |
-| **Link: Esqueci minha senha** | Link | Sim | Aciona recuperação assíncrona mandando links de substituição no e-mail do autor. |
-| **Link: Cadastrar-se agora** | Link | Sim | Habilita os inputs para o registro limpo de uma nova credencial por E-Mail. |
-| **Modal: Definir Nick Único** | Modal | Condicional | Ativo obrigatoriamente logo após a validação que crie um registro 100% autêntico pela primeira vez (Novo Cadastro). |
+| Campo / Elemento | Tipo | Descrição / Comportamento esperado |
+| :--- | :--- | :--- |
+| **Imagem de Fundo / Logo** | Imagem | Design estético central e minimalista apresentando a identidade que compõe o brand do app. |
+| **Botão: Play Games** | Botão | Execução invisível. Caso ocorra em Androids logados, esta rotina é ativada por conta própria no _startup_ da tela. |
+| **Botão: Continuar com Google** | Botão | Aciona modal integrado do Google Account/OAuth na tela. |
+| **Campo: Endereço de E-mail** | Input | Onde o usuário informa o e-mail durante opções explícitas manuais. |
+| **Campo: Senha do E-mail** | Input | Onde descreve as senhas manuais. |
+| **Botão: Entrar com E-mail e Senha** | Botão | Realiza a validação contra as credenciais e procede ao sucesso do pareamento de contas. |
+| **Botão: Pular Login (Jogar agora)** | Botão / Link | Ação explícita de recusa ao login. Salva metadados localmente ativando a regra permanente _bypass_ de RF_001. |
+| **Link: Esqueci minha senha** | Link | Aciona recuperação assíncrona mandando links de substituição no e-mail do autor. |
+| **Link: Cadastrar-se agora** | Link | Habilita os inputs para o registro limpo de uma nova credencial por E-Mail. |
+| **Modal: Definir Nick Único** | Modal | Ativo obrigatoriamente logo após a validação que crie um registro 100% autêntico pela primeira vez (Novo Cadastro). |
 
 ## PRÉ-REQUISITOS
 
