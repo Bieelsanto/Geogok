@@ -1,5 +1,5 @@
 ---
-trigger: glob
+trigger: manual
 description: Instruções de formação e padronização visual e estrutural para a geração de arquivos Markdown (.md), focado na criação de Documentos de Requisitos Funcionais.
 globs: ["**/RF*.md"]
 ---
